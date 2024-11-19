@@ -20,6 +20,18 @@
 /processorParam:TextureFormat=Compressed
 /build:Arial32.spritefont
 
+#begin ball.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:ball.png
+
 #begin bluerock.jpg
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -31,4 +43,16 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:bluerock.jpg
+
+#begin lighthouse.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:lighthouse.png
 

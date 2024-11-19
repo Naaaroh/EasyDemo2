@@ -4,15 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EasyMonoGame;
+using Microsoft.Xna.Framework.Input;
 
-namespace EasyStart
+namespace EasyDemo2
 {
     internal class MyWorld : World
     {
-        public MyWorld() : base(600, 800)
+        public MyWorld() : base(800, 600)
         {
             // Tile background with the file "bluerock" in the Content folder.
             BackgroundTileName = "bluerock";
+
+            Add(new Ball(), "ball", 400, 300);
+            Add(new Racket(Keys.W, Keys.S), "lighthouse", 20, 300);
+            Add(new Racket(Keys.Up, Keys.Down), "lighthouse", 780, 300);
         }  
     }
 }

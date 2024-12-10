@@ -18,6 +18,8 @@ namespace EasyDemo2
             Add(new Ball(), "ball", 400, 300);
             Add(new Racket(Keys.W, Keys.S), "lighthouse", 20, 300);
             Add(new Racket(Keys.Up, Keys.Down), "lighthouse", 780, 300);
+            //Add(new Score(), "Arial32", 40, 100);
+
         }  
     }
 }
